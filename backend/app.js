@@ -16,10 +16,10 @@ formularioBD.use(cors({
 
 //MySQL
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'formulariosolicitud'
+    host: 'sql10.freemysqlhosting.net',
+    user: 'sql10412911',
+    password: 'xxTuMl1T18',
+    database: 'sql10412911'
 })
 
 
