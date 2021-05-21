@@ -9,7 +9,7 @@ const formularioBD = express();
 formularioBD.use(bodyParser.json());
 
 
-const DIRECTORIO_PERMITIDO_CORS = "http://localhost:3000";
+const DIRECTORIO_PERMITIDO_CORS = "https://cotizador-umss-tis.herokuapp.com/";
 formularioBD.use(cors({
   origin: DIRECTORIO_PERMITIDO_CORS
 }));
