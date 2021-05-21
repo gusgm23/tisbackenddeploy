@@ -11,7 +11,7 @@ formularioBD.use(bodyParser.json());
 
 const DIRECTORIO_PERMITIDO_CORS = "https://cotizador-umss-tis.herokuapp.com/Administrador";
 formularioBD.use(cors({
-  origin: DIRECTORIO_PERMITIDO_CORS
+  origin: "*"
 }));
 
 //MySQL
