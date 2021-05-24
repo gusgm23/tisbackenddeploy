@@ -17,9 +17,9 @@ formularioBD.use(cors({
 //MySQL
 const connection = mysql.createConnection({
     host: 'sql10.freemysqlhosting.net',
-    user: 'sql10412911',
-    password: 'xxTuMl1T18',
-    database: 'sql10412911'
+    user: 'sql10414655',
+    password: '8YphPvKRhF',
+    database: 'sql10414655'
 })
 
 
